@@ -6,6 +6,7 @@
   "license": "UNLICENSED",
   "private": true,
   "keywords": [
+    "bconnorwhite",
     "connor",
     "white",
     "website"
@@ -20,22 +21,23 @@
   },
   "main": "./build/index.js",
   "scripts": {
-    "build": "essence-server build",
-    "dev": "essence-server dev",
-    "dist": "essence-client-server dist",
+    "build": "essence build",
+    "deploy": "essence deploy",
+    "dev": "essence dev",
     "lint": "npmPkgJsonLint . && eslint . --ext .ts,.tsx",
-    "start": "essence-server start",
-    "start:prod": "essence-server start --prod",
-    "watch": "essence-server watch"
+    "start": "essence start",
+    "start:prod": "essence start --prod",
+    "watch": "essence watch"
   },
   "dependencies": {
-    "@essence/page-server": "^0.1.3",
-    "@essence/ui": "^0.1.2",
+    "@essence/page-server": "^0.1.5",
+    "@essence/tags": "^0.1.4",
+    "@essence/ui": "^0.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.2.3",
+    "@essence/cli": "^0.3.1",
     "@types/react": "^16.9.34",
     "@typescript-eslint/eslint-plugin": "^2.28.0",
     "@typescript-eslint/parser": "^2.28.0",

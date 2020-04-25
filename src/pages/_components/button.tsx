@@ -2,9 +2,7 @@ import React from "react";
 import { Icon, IconProps, withTailwind } from "@essence/ui";
 import { LinkProps } from "./link";
 
-interface ButtonProps extends LinkProps {
-  icon?: Pick<IconProps, "name">;
-}
+type ButtonProps = LinkProps & { ["icon"]?: IconProps["name"] };
 
 const Button: React.FC<ButtonProps> = ({ href, icon, children }) => withTailwind(
   <a
@@ -29,7 +27,7 @@ const Button: React.FC<ButtonProps> = ({ href, icon, children }) => withTailwind
     {
       icon &&
       <React.Fragment>
-        <Icon name={icon} />
+        <Icon set="brand" name={icon} />
         {" "}
       </React.Fragment>
     }
