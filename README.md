@@ -1,3 +1,3 @@
-## 👉 connorwhite.org
+## 👉 [connorwhite.org](https://connorwhite.org)
 
 [![https://connorwhite.org](./assets/screenshot.png)](https://connorwhite.org)
