@@ -50,14 +50,14 @@ const Image: React.FC = () => withTailwind(
 const ContentSection: React.FC = () => withTailwind(
   <Block width="10in12" paddingY="12" margin="auto" sm={{ width: "11in12" }} md={{ paddingY: "16" }}>
     <Image />
-    <Heading1 paddingBottom="5" lg={{ paddingTop: "1" }} xl={{ paddingTop: "8" }}>Connor White</Heading1>
-    <p>
+    <Heading1 paddingBottom="5" lg={{ paddingTop: "1" }} xl={{ paddingTop: "8" }} font="mono">Connor White</Heading1>
+    <p font="mono">
       Connor White is a programmer working as a software architect at Olea Edge Analytics. He has previously worked as a freelance web developer for clients including the University of Texas.
     </p>
     <br />
-    <p>Connor also studied at the University of Texas where he completed a Bachelor of Science in Electrical and Computer Engineering.</p>
+    <p font="mono">Connor also studied at the University of Texas where he completed a Bachelor of Science in Electrical and Computer Engineering.</p>
     <br />
-    <p paddingBottom="12">
+    <p font="mono" paddingBottom="12">
       Connor&apos;s other projects include Aven (an end-to-end encrypted messaging service), <Link href="https://masciintosh.com">Space Explorer</Link> (an ASCII-art based space exploration RPG), and <Link href="https://soundcloud.com/merkai-1">Merkai</Link> (an electronic music project).
     </p>
     <ButtonSection />
