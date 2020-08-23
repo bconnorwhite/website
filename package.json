@@ -30,19 +30,18 @@
     "watch": "essence watch"
   },
   "dependencies": {
-    "@essence/page-server": "^0.1.5",
-    "@essence/tags": "^0.1.4",
-    "@essence/ui": "^0.1.4",
+    "@essence/page-server": "^0.3.2",
+    "@essence/ui": "^0.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@essence/cli": "^0.3.1",
-    "@types/react": "^16.9.34",
-    "@typescript-eslint/eslint-plugin": "^2.28.0",
-    "@typescript-eslint/parser": "^2.28.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.19.0",
-    "npm-package-json-lint": "^5.0.0"
+    "@essence/cli": "^0.3.6",
+    "@types/react": "^16.9.46",
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.9.1",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "npm-package-json-lint": "^5.1.0"
   }
 }

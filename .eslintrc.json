@@ -148,7 +148,7 @@
     "lines-around-comment": "off",
     "lines-between-class-members": ["warn", "never"],
     "max-depth": "error",
-    "max-len": ["warn", { "code": 180 }],
+    "max-len": ["off"],
     "max-lines": ["warn", 200],
     "max-lines-per-function": ["warn", 50],
     "max-nested-callbacks": "error",
