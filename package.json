@@ -33,7 +33,7 @@
     "watch": "essence watch"
   },
   "dependencies": {
-    "@essence/page-server": "^0.3.2",
+    "@essence/page-server": "^0.4.0",
     "@essence/ui": "^0.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
